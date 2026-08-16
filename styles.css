@@ -9,9 +9,6 @@
   --border: #e2e5ea;
   --accent: #1c3d5a;
   --accent-text: #ffffff;
-  --flag-bg: #fff4d6;
-  --flag-border: #e0b44a;
-  --flag-text: #6b4a00;
   --maxw: 46rem;
 }
 
@@ -24,9 +21,6 @@
     --border: #2c3238;
     --accent: #8fb8dc;
     --accent-text: #14171a;
-    --flag-bg: #3a2f12;
-    --flag-border: #8a6d24;
-    --flag-text: #f0d79a;
   }
 }
 
@@ -132,17 +126,6 @@ a { color: var(--accent); }
 }
 
 .callout p:last-child { margin-bottom: 0; }
-
-/* Deliberately loud so an unfilled placeholder cannot ship unnoticed. */
-.needs-fill {
-  background: var(--flag-bg);
-  border: 1px dashed var(--flag-border);
-  color: var(--flag-text);
-  padding: 0.1em 0.4em;
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 0.95em;
-}
 
 .toc {
   background: var(--bg-soft);
